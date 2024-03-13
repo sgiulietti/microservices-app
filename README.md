@@ -7,22 +7,22 @@
 
  Step 3: Install the kubernetes official client and DO command-line tool, “doctl”, to interact with and manage clusters.
 
-Step 4: Change permissions on config.yaml file only for your user for security best practices.
+Step 4: Change permissions on config.yaml file only for your user for security best practices.  
 Execute the following command:
 
     chmod 400 config.yaml
 
-Step 5: Create a namespace for deploying the microservices.
+Step 5: Create a namespace for deploying the microservices.  
 Execute the following command:
 
     kubectl create ns myns
 
-Step 6: Deploy the microservices into the new namespace.
+Step 6: Deploy the microservices into the new namespace.  
 Execute the following command:
 
     kubectl apply -f config.yaml -n mysn
 
-Step 7: Deploy the microservices into the new namespace.
+Step 7: Deploy the microservices into the new namespace.  
 Execute the following command:
 
     kubectl apply -f config.yaml -n mysn    
