@@ -12,6 +12,7 @@ spec:
       labels:
         app: emailservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/emailservice:v0.8.0
@@ -62,6 +63,7 @@ spec:
       labels:
         app: recommendationservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/recommendationservice:v0.8.0
@@ -114,6 +116,7 @@ spec:
       labels:
         app: productcatalogservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/productcatalogservice:v0.8.0
@@ -164,6 +167,7 @@ spec:
       labels:
         app: paymentservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/paymentservice:v0.8.0
@@ -216,6 +220,7 @@ spec:
       labels:
         app: currencyservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/currencyservice:v0.8.0
@@ -268,6 +273,7 @@ spec:
       labels:
         app: shippingservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/shippingservice:v0.8.0
@@ -318,6 +324,7 @@ spec:
       labels:
         app: adservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/shippingservice:v0.8.0
@@ -368,6 +375,7 @@ spec:
       labels:
         app: cartservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/cartservice:v0.8.0
@@ -420,6 +428,7 @@ spec:
       labels:
         app: redis-cart
     spec:
+      replicas: 2
       containers:
       - name: redis
         image: redis:alpine
@@ -475,6 +484,7 @@ spec:
       labels:
         app: checkoutservice
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/checkoutservice:v0.8.0
@@ -537,6 +547,7 @@ spec:
       labels:
         app: frontend
     spec:
+      replicas: 2
       containers:
       - name: service
         image: gcr.io/google-samples/microservices-demo/frontend:v0.8.0
