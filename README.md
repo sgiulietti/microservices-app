@@ -5,7 +5,7 @@
 
  Step 2: Create from DO UI a kubernetes cluster.
 
- Step 3: Install the kubernetes official client and DO command-line tool, “doctl” , to interact with and manage clusters.
+ Step 3: Install the kubernetes official client and DO command-line tool, “doctl”, to interact with and manage clusters.
 
 Step 4: Change permissions on config.yaml file only for your user for security best practices.
 Execute the following command:
@@ -29,10 +29,10 @@ Execute the following command:
 
 ### IMPLEMENTED BEST PRACTICES
 
-Fixed version of any image used.
-Liveness probe.
-Readiness probe.
-Resource request.
-Resource limits.
-Implement LoadBalancer service type instead of exposing NodePort.
-Implement more than 1 replica for deployment.
+* Fixed version of any image used.
+* Liveness probe.
+* Readiness probe.
+* Resource request.
+* Resource limits.
+* Implement LoadBalancer service type instead of exposing NodePort.
+* Implement more than 1 replica for deployment.
