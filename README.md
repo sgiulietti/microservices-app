@@ -1,7 +1,5 @@
-## DEMO MICROSERVICES APP WITH K8S ON DIGITAL OCEAN
+## Demo Microservices app with k8s on Digital Ocean
  Prerequisites: Have an account on Digital Ocean cloud provider.
-
- ### MongoDB
 
  Step 1: Create a config yaml file that contains the deployment and service configuration for each microservice of an online shop example: https://github.com/GoogleCloudPlatform/microservices-demo
 
